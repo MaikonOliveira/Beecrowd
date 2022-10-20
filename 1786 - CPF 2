@@ -1,8 +1,7 @@
 # 1786 - CPF 2
 # Developed by Maikon Oliveira
 
-while True:
-    
+while True: 
     try:
         saida=[]
         cpf=[]
