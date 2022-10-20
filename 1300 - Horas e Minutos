@@ -1,0 +1,12 @@
+//1300 - Horas e Minutos
+//Developed by Maikon Oliveira
+
+#include<stdio.h>
+
+int main(){
+  int N;
+  while(scanf("%d", &N) != EOF){
+    if(N%6==0) printf("Y\n");
+    else printf("N\n");
+  }
+}
