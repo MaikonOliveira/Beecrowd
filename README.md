@@ -8,7 +8,7 @@ Foram utilizadas diversas linguagens para praticar e aperfeiçoamento de habilid
 
 Exemplos:
 
-C++
-C
-Java
+C++,
+C,
+Java,
 Python
