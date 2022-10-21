@@ -9,7 +9,7 @@ using namespace std;
 int main (){
     cout<<fixed<<setprecision(1);
     int N,i,j;
-    float soma=0, media=0;
+    float soma=0;
     float mat[12][12];
     char OP;
     cin>>N;
@@ -22,8 +22,7 @@ int main (){
         }for(i=0;i<12;i++) soma+=mat[N][i];
         if(OP=='S') cout<<soma<<endl;
         else if(OP=='M'){
-            media=soma/12;
-            cout<<media<<endl;
+            cout<<soma/12<<endl;
         }
     }
 }
