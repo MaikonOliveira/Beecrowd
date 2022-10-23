@@ -5,6 +5,6 @@ while True:
     try:
         A=input()
         B=input()
-        print("PROD =",int(A)+int(B))
+        print("SOMA =",int(A)+int(B))
     except EOFError:
         break
