@@ -20,10 +20,10 @@ int main(){
             for(k=0;k<t;k++){
                 if(k-i < a) cout<<mat[i][k];
             }
-            cout << endl;
-        }for(i=0;i<a-1;i++) cout << " ";
-        cout << "*" << endl;
-        for(i=0;i<a-2;i++) cout << " ";
-        cout << "*" << "*" << "*" << endl << endl;
+            cout<<endl;
+        }for(i=0;i<a-1;i++) cout<<" ";
+        cout<<"*"<<endl;
+        for(i=0;i<a-2;i++) cout<< " ";
+        cout<<"*"<<"*"<<"*"<<endl<<endl;
     }
 }
